@@ -1,0 +1,30 @@
+# Environment & Secret Files (Never commit credentials)
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Build Artifacts (Maven)
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Runtime Uploads & Dynamic Files
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.classpath
+*.project
+*.settings/
+.DS_Store
+Thumbs.db
